@@ -34,21 +34,40 @@
 <!-- 본문(이미지 랜딩) -->
 <main class="content">
     <div class="imgBox">
-        <img src="assets/img/main.png" alt="메인 이미지">
+        <picture>
+            <source srcset="assets/img/main_m.png" media="(max-width: 768px)">
+            <img src="assets/img/main.png" alt="메인 이미지">
+        </picture>
     </div>
+
     <div class="imgBox">
-        <img src="assets/img/service.png" alt="서비스 소개">
+        <picture>
+            <source srcset="assets/img/service_m.png" media="(max-width: 768px)">
+            <img src="assets/img/service.png" alt="서비스 소개">
+        </picture>
     </div>
+
     <div class="imgBox">
-        <img src="assets/img/who.png" alt="대상 안내">
+        <picture>
+            <source srcset="assets/img/who_m.png" media="(max-width: 768px)">
+            <img src="assets/img/who.png" alt="대상 안내">
+        </picture>
     </div>
+
     <div class="imgBox">
-        <img src="assets/img/suc.png" alt="성공 사례">
+        <picture>
+            <source srcset="assets/img/suc_m.png" media="(max-width: 768px)">
+            <img src="assets/img/suc.png" alt="성공 사례">
+        </picture>
     </div>
+
 
     <section class="last">
         <div class="callArea">
-            <img src="assets/img/call.png" alt="문의 안내">
+            <picture>
+                <source srcset="assets/img/call_m.png" media="(max-width: 768px)">
+                <img src="assets/img/call.png" alt="문의 안내">
+            </picture>
 
             <!-- 투명 링크 영역 (위치/크기는 CSS에서 %로 조절) -->
             <a class="callLink callLink--kakao"
@@ -78,3 +97,4 @@
 <script src="js/main.js"></script>
 </body>
 </html>
+
